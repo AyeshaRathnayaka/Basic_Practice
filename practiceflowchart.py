@@ -1,3 +1,4 @@
+
 #check whether a given number is even or odd
 No1=int(input("enter an integer : "))
 if No1 / 2 == 0 :

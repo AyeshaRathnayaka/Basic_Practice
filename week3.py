@@ -1,20 +1,22 @@
-#find the largest among three numbers
-No1=input("First Number : ")
-No2=input("Second Number : ")
-No3=input("Third Number: 1")
+#accept a number and display its multiplication table up to 12.
 
-if No1>No2>No3 :
-    print("Largest Number is "+ str(No1))
-elif No1<No2<No3 :
-    print("Largest Number is "+ str(No3))
-elif No2<No3<No1 :
-    print("Largest Number is "+ str(No1))
-elif No2>No3>No1 :
-    print("Largest Number is " + str(No2))
-elif No3<No1<No2 :
-    print("Largest Number is " + str(No2))
-else:
-    print("Largest Number is "+ str(No3))
+No1=int(input("Get Number : "))
+
+print(str(No1)+ " * 1 = " + str(No1*1))
+print(str(No1)+ " * 2 = " + str(No1*2))
+print(str(No1)+ " * 3 = " + str(No1*3))
+print(str(No1)+ " * 4 = " + str(No1*4))
+print(str(No1)+ " * 5 = " + str(No1*5))
+print(str(No1)+ " * 6 = " + str(No1*6))
+print(str(No1)+ " * 7 = " + str(No1*7))
+print(str(No1)+ " * 8 = " + str(No1*8))
+print(str(No1)+ " * 9 = " + str(No1*9))
+print(str(No1)+ " * 10 = " + str(No1*10))
+print(str(No1)+ " * 11 = " + str(No1*11))
+print(str(No1)+ " * 12 = " + str(No1*12))
+
+
+
 
 
 
